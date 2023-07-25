@@ -38,7 +38,7 @@ const Skills = () => {
             id: 5,
             src: nodejs,
             title: "Node JS",
-            style: "shadow-white",
+            style: "shadow-green-600",
         },
         {
             id: 6,

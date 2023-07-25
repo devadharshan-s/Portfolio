@@ -1,28 +1,33 @@
 import React, {useState} from 'react';
 import {FaBars,FaTimes} from "react-icons/fa";
+import home from "./Home";
+import about from "./About";
+import projects from "./Projects";
+import skills from "./Skills";
+import contact from "./Contact";
 
 const NavBar = () => {
     const[nav,setNav] = useState(false);
     const links = [
         {
             id: 1,
-            link: 'home',
+            link: home(),
         },
         {
             id: 2,
-            link: 'about',
+            link: about(),
         },
         {
             id: 3,
-            link: 'projects',
+            link: projects(),
         },
         {
             id: 4,
-            link: 'skills',
+            link: skills(),
         },
         {
             id: 5,
-            link: 'contact',
+            link: contact(),
         },
     ];
 
